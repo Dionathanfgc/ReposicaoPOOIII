@@ -1,0 +1,17 @@
+{
+  "name": "trabalhopoo1",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "npm run build && node dist/index.js",
+    "test": "echo \"No tests specified\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}
