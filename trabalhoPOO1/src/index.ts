@@ -82,12 +82,12 @@ class Produto {
 
 const endereco = new Endereco('Rua A', 123, 'Cidade Y', 'Estado F');
 const telefone1 = new Telefone('11', 12345678, 'Celular');
-const cliente = new Cliente('João', 123456789, 1990, 'Masculino', endereco, [telefone1]);
+const cliente = new Cliente('Dione', 123456789, 1990, 'Masculino', endereco, [telefone1]);
 const produto1 = new Produto(1, 'Produto 1', 10.99, 'Produto 1');
 const venda = new Venda(1, 2022, cliente, [produto1], 'Rua 2');
 
-console.log('Exemplo de Cliente:');
+console.log('Cliente:');
 console.log(`Nome: ${cliente.nome}, CPF: ${cliente.cpf}`);
 
-console.log('\nExemplo de Venda:');
+console.log('\nVenda:');
 console.log(`Código: ${venda.codigo}, Total: R$ ${venda.calcularTotal().toFixed(2)}`);
